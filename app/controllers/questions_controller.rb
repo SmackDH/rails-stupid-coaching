@@ -1,4 +1,6 @@
 class QuestionsController < ApplicationController
+
+  require 'rest-client'
   def ask
   end
 
